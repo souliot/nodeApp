@@ -4,12 +4,9 @@ cd /app
 if [ ! -e "init.lock" ]
 then
   npm install
+  npm start
   touch init.lock
+else
+  npm start
 fi
 
-if [ $1 ]
-then
-	npm $i
-else
-	npm start
-fi
