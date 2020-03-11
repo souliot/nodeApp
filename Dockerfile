@@ -1,7 +1,6 @@
 FROM node:9.2-alpine
 MAINTAINER BossLin
-
-RUN mkdir /app
+RUN apk add --no-cache git python make openssl
 # 工作目录
 WORKDIR /app
 
