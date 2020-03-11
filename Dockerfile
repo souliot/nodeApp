@@ -1,4 +1,4 @@
-FROM node:9.2-alpine as builder
+FROM node:9.2-alpine
 MAINTAINER BossLin
 
 RUN mkdir /app
