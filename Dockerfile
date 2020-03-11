@@ -1,6 +1,7 @@
 FROM node:9.2-alpine as builder
 MAINTAINER BossLin
 
+RUN mkdir /app
 # 工作目录
 WORKDIR /app
 
